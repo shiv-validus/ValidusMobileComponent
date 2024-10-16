@@ -1,4 +1,8 @@
+// @ts-ignore
+
 import { NativeModules, Platform } from 'react-native';
+
+import TextInputWithPlaceholder from './components/text-input';
 
 const LINKING_ERROR =
   `The package 'react-native-validus-component-mobile' doesn't seem to be linked. Make sure: \n\n` +
@@ -20,3 +24,5 @@ const ValidusComponentMobile = NativeModules.ValidusComponentMobile
 export function multiply(a: number, b: number): Promise<number> {
   return ValidusComponentMobile.multiply(a, b);
 }
+
+export { TextInputWithPlaceholder };
