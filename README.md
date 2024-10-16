@@ -5,14 +5,14 @@ Common Components for ValidusFintech
 ## Installation
 
 ```sh
-npm install react-native-validus-component-mobile
+npm install react-nat-ive-validus-component-mobile
 ```
 
 ## Usage
 
 
 ```js
-import { multiply } from 'react-native-validus-component-mobile';
+import { SelectDropdown } from 'react-native-validus-component-mobile';
 
 // ...
 

@@ -51,7 +51,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shiv-validus/react-native-validus-component-mobile.git"
+    "url": "https://github.com/shiv-validus/ValidusMobileComponent"
   },
   "author": "Shiv <shiv.tiwari@validusfintech.com> (https://github.com/shiv-validus)",
   "license": "MIT",
