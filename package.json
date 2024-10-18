@@ -1,6 +1,6 @@
 {
   "name": "react-native-validus-component-mobile",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Common Components for ValidusFintech",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",

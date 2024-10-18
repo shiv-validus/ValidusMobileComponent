@@ -91,7 +91,6 @@ const App = () => (
     availableUnits={1000}
     availableBalance={15000}
     selectedAccountData={selectedAccountData}
-    style={customStyles}
   />
 );
 
