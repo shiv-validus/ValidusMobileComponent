@@ -5,7 +5,9 @@ Common Components for ValidusFintech
 ## Installation
 
 ```sh
-npm install react-nat-ive-validus-component-mobile
+npm i react-native-validus-component-mobile
+or
+yarn add react-native-validus-component-mobile
 ```
 
 ## Usage
@@ -13,6 +15,7 @@ npm install react-nat-ive-validus-component-mobile
 
 ```js
 import { SelectDropdown } from 'react-native-validus-component-mobile';
+import {AccountSummaryCard} from './AccountSummaryCard';
 
 // ...
 
@@ -62,10 +65,9 @@ const MyComponent = () => {
 export default MyComponent;
 
 
-
+## Example 2:
 
 import React from 'react';
-import {AccountSummaryCard} from './AccountSummaryCard';
 
 const selectedAccountData = {
   account_holder_name: 'John Doe',
