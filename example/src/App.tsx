@@ -4,6 +4,7 @@ import TextInputWithPlaceholder from '../../src/components/text-input';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import SelectDropdown from '../../src/components/selectDropdown/selectDropdown';
 import styles from './styles';
+import AccountSummaryCard from '../../src/components/AccountSummaryCard';
 
 export default function App() {
   const [text, setText] = useState('');
@@ -41,6 +42,23 @@ export default function App() {
     return `Row ${index + 1}: ${item}`;
   };
 
+  const selectedAccountData = {
+    account_holder_name: 'John Doe',
+    account_number: '1234567890',
+    fund_description: 'Equity Fund',
+    plan_description: 'Growth',
+    option_description: 'Direct',
+  };
+
+  const customStyles = {
+    card: {
+      backgroundColor: 'lightblue',
+    },
+    value: {
+      color: 'darkgreen',
+    },
+  };
+
   return (
     <View style={styles.container}>
       <TextInputWithPlaceholder
@@ -67,6 +85,13 @@ export default function App() {
         dropdownStyle={styles.dropdown}
         rowStyle={styles.row}
         rowTextStyle={styles.rowText}
+      />
+
+      <AccountSummaryCard
+        availableUnits={100978989080}
+        availableBalance={1578568768}
+        selectedAccountData={selectedAccountData}
+        style={customStyles}
       />
     </View>
   );
