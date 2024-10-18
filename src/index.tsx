@@ -3,7 +3,7 @@
 import { NativeModules, Platform } from 'react-native';
 
 import TextInputWithPlaceholder from './components/text-input';
-
+import AccountSummaryCard from './components/AccountSummaryCard';
 const LINKING_ERROR =
   `The package 'react-native-validus-component-mobile' doesn't seem to be linked. Make sure: \n\n` +
   Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
@@ -25,4 +25,4 @@ export function multiply(a: number, b: number): Promise<number> {
   return ValidusComponentMobile.multiply(a, b);
 }
 
-export { TextInputWithPlaceholder };
+export { TextInputWithPlaceholder, AccountSummaryCard };
