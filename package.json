@@ -1,6 +1,6 @@
 {
   "name": "react-native-validus-component-mobile",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Common Components for ValidusFintech",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -58,7 +58,7 @@
   "bugs": {
     "url": "https://github.com/shiv-validus/react-native-validus-component-mobile/issues"
   },
-  "homepage": "https://github.com/shiv-validus/react-native-validus-component-mobile#readme",
+  "homepage": "https://github.com/shiv-validus/ValidusMobileComponent/blob/main/README.md",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

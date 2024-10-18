@@ -61,6 +61,41 @@ const MyComponent = () => {
 
 export default MyComponent;
 
+
+
+
+import React from 'react';
+import {AccountSummaryCard} from './AccountSummaryCard';
+
+const selectedAccountData = {
+  account_holder_name: 'John Doe',
+  account_number: '1234567890',
+  fund_description: 'Equity Fund',
+  plan_description: 'Growth',
+  option_description: 'Direct'  `
+};
+
+const customStyles = {
+  card: {
+    backgroundColor: 'lightblue',
+  },
+  value: {
+    color: 'darkgreen',
+  }
+};
+
+const App = () => (
+  <AccountSummaryCard
+    availableUnits={1000}
+    availableBalance={15000}
+    selectedAccountData={selectedAccountData}
+    style={customStyles}
+  />
+);
+
+export default App;
+
+
 ```
 
 
