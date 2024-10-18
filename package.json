@@ -58,7 +58,7 @@
   "bugs": {
     "url": "https://github.com/shiv-validus/react-native-validus-component-mobile/issues"
   },
-  "homepage": "https://github.com/shiv-validus/react-native-validus-component-mobile#readme",
+  "homepage": "https://github.com/shiv-validus/ValidusMobileComponent/blob/main/README.md",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
